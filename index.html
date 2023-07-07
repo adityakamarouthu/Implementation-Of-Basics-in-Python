@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Landing Page</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="navbar.css">
+  <link rel="stylesheet" href="maintext.css">
+  <!-- <link rel="stylesheet" href="cards.css"> -->
+  <link rel="stylesheet" href="box.css">
+  <link rel="stylesheet" href="conatiner.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Brygada+1918:ital@0;1&family=PT+Serif:ital@0;1&display=swap" rel="stylesheet">
+  <link href="scrollbar" rel="stylesheet" />
+
+  
+
+</head>
+<body>
+  <div class="progress-container fixed-top">
+    <span class="progress-bar"></span>
+  </div>
+  <div class="header-background">
+    <div id= "nav" class="sticky-nav">
+      <nav class="navbar navbar-expand-lg ">
+        <div class="container-fluid">
+            <img class="supralogo" src="logos/IMG_0782.png">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <span></span>
+            <span></span>
+            </button>
+          <div class="collapse-navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Fourth Generation A80</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About Supras</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Previous Generations
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> First Generation A40/A50</a></li>
+                  <li><a class="dropdown-item" href="#"> Second Generation A60</a></li>
+                  <li><a class="dropdown-item" href="#"> Third Generation A70</a></li>
+                </ul>
+              </li>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <div class="text">
+    <h1 class="heading"> Toyota Supra MK4</h1>
+    <p class="intro"></p>
+  </div>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="mk4/IMG_0786.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="mk4/IMG_0784.jpeg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="mk4/IMG_0785.jpeg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+  <div class="box">
+    <div class="clearfix">
+      <img src="logos/IMG_0781.jpeg" class="col-md-6 float-md-end mb-3 ms-md-3" alt="...">
+
+      <p>
+      The Toyota Supra (Japanese: トヨタ・スープラ, Hepburn: Toyota Sūpura) is a sports car and grand tourer manufactured by the Toyota Motor Corporation beginning in 1978. The name "supra" is derived from the Latin prefix, meaning "above", "to surpass" or "go beyond".
+      </p>
+
+      <p>
+      The initial four generations of the Supra were produced from 1978 to 2002. The fifth generation has been produced since March 2019 and went on sale in May 2019. The styling of the original Supra was derived from the Toyota Celica, but it was both longer and wider. Starting in mid-1986, the A70 Supra became a separate model from the Celica. In turn, Toyota also stopped using the prefix Celica and named the car Supra.
+      </p>
+
+      <p>
+      Owing to the similarity and past of the Celica's name, it is frequently mistaken for the Supra, and vice versa. The first, second and third generations of the Supra were assembled at the Tahara plant in Tahara, Aichi, while the fourth generation was assembled at the Motomachi plant in Toyota City. The 5th generation of the Supra is assembled alongside the G29 BMW Z4 in Graz, Austria by Magna Steyr.
+      </p>
+    </div>
+  </div>
+
+<!--
+
+  <div class="container-fluid-about">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-lg-6 column-left">
+        <h1 class="sectionleft"></h1>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-lg-6 column-right">
+        <h1 class="sectionright"></h1>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="cards">
+    <div class="card" style="width: 18rem;">
+      <img src="logos/IMG_0774.png" class="card-img-top" alt="...">
+      <div class="card-body">
+      <h5 class="card-title">LinkedIn Profile</h5>
+      <p class="card-text">https://www.linkedin.com/in/adityakamarouthu</p>
+      <button class="Card-btn" type="submit">
+        <a href="https://www.linkedin.com/in/adityakamarouthu" class="btn-text">Contact Me</a>
+      </button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <img src="logos/IMG_0774.png" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title">Behance</h5>
+        <p class="card-text">Behance</p>
+        <button class="Card-btn" type="submit">
+          <a href="https://www.linkedin.com/in/adityakamarouthu" class="btn-text">Contact Me</a>
+        </button>
+      </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+      <img src="logos/IMG_0774.png" class="card-img-top" alt="...">
+      <div class="card-body"> 
+        <h5 class="card-title">Mail</h5>
+        <p class="card-text">aditya.kamarouthu@s.amity.edu</p>
+        <button class="Card-btn" type="submit">
+          <a href="https://www.linkedin.com/in/adityakamarouthu" class="btn-text">Contact Me</a>
+        </button>
+      </div>
+    </div>
+    
+    <div class="card" style="width: 18rem;">
+      <img src="logos/IMG_0774.png" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Contact Number</h5>
+        <p class="card-text"> +91 755-8372885</p>
+        <button class="Card-btn" type="submit">
+          <a href="https://www.linkedin.com/in/adityakamarouthu" class="btn-text">Contact Me</a>
+        </button>
+    </div>
+  </div>
+  -->
+  
+</body>
+</html>

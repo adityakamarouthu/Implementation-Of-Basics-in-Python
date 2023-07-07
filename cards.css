@@ -1,0 +1,44 @@
+.card-body{
+  vertical-align: center;
+  justify-content: center;
+  height: auto;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.cards{
+  position: absolute;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 18px;
+  row-gap: 10px;
+  margin-top: 150px;
+  z-index: 99;
+}
+.card-title{
+  font-family: 'Impact', Arial;
+  font-size: 20px;
+  
+}
+.card-text{
+  color: rgb(168, 168, 168);
+
+}
+.card-img-top{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 35px;
+  width: 200px;
+}
+.card-button{
+  vertical-align:middle;
+}
+.btn-text{
+  color: black;
+  font-family: Arial;
+  font-size: 12px;
+  text-decoration: none;
+
+}
+.card-title{
+}

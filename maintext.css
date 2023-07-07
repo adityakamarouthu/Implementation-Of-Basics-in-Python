@@ -1,0 +1,25 @@
+  @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Brygada+1918:ital@0;1&family=PT+Serif:ital@0;1&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,500;0,900;1,500&display=swap');
+
+.text{
+  padding: 70px;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+}
+.heading{
+  font-family: 'Bebas Neue', Arial;
+  font-size: 200px;
+  color: black;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  vertical-align: middle;
+  padding-top: 64px;
+}
+.intro{
+  font-family: 'Copperplate', Arial;
+  font-size: 30px;
+}
